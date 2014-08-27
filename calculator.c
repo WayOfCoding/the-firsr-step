@@ -12,3 +12,15 @@ void main(){
 
 
 }
+/*#include<stdio.h>
+void main()
+{
+int A,B,S;
+printf("please enter a number A:");
+scanf("%d",&A);
+printf("please enter a number B:");
+scanf("%d",&B);
+S=A+B;
+printf("the result is :");printf("%d\n",S);
+}
+*/
