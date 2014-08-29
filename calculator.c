@@ -1,4 +1,5 @@
-#if you want to delcare function,there are two chioces for you.the first one is new function ar first ,and the second one i dont know
+#if you want to delcare function,there are two chioces for you.the first one is new function ar first 
+#	,and the second one you need type head of new function at the front;
 
 
 
