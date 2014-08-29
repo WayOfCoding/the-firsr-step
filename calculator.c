@@ -1,6 +1,15 @@
-#you can type some brief code in here.this file aim to create a calculator in C
+#if you want to delcare function,there are two chioces for you.the first one is new function ar first ,and the second one i dont know
+
+
 
 #include <stdio.h>
+
+int sum(int n,int m)
+{
+	int S=n+m;
+	return S;
+}
+
 main()
 {
 	int A,B,S;
@@ -12,10 +21,4 @@ main()
 	S = sum(A,B);
 	printf("%d\n",S);
 
-}
-
-int sum(int n,int m)
-{
-	int S=n+m;
-	return S;
 }
