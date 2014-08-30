@@ -4,12 +4,9 @@
 
 
 #include <stdio.h>
+int sum(int n,int m);
+int difference(int n ,int m);
 
-int sum(int n,int m)
-{
-	int S=n+m;
-	return S;
-}
 
 main()
 {
@@ -20,6 +17,21 @@ main()
 	scanf("%d",&B);
 
 	S = sum(A,B);
+	differ = difference(A,B);
 	printf("%d\n",S);
+	printf("%d\m",differ);
 
+}
+
+int sum(int n,int m)
+{
+	int S=n+m;
+	return S;
+}
+
+int difference(int n,int m)
+{
+	int differ = n - m;
+	return differ;
+	
 }
