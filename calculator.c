@@ -10,16 +10,16 @@ int difference(int n ,int m);
 
 main()
 {
-	int A,B,S;
+	int A,B,S,differ;
 	printf("please enter a number A:");
 	scanf("%d",&A);
 	printf("please enter a number B:");
 	scanf("%d",&B);
 
 	S = sum(A,B);
-	differ = difference(A,B);
+	differ= difference(A,B);
 	printf("%d\n",S);
-	printf("%d\m",differ);
+	printf("%d\n",differ);
 
 }
 
