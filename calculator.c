@@ -74,3 +74,4 @@ int division(int n, int m)
 	return divise;
 
 }
+/*TvT你写的这么好还要我何用*/
